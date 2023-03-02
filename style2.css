@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+  text-align: right;
+
+background-color: white;
+}
+
+li{
+  display: inline-block;
+  margin-inline:0.5rem ;
+  font-size: large;
+
+}
+li a{
+  text-decoration: none;
+  color: gray;
+  display: inline;
+  font-size: 2rem;
+  margin-inline: 1rem;
+
+  
+}
+li a:hover,
+li a:focus{
+  color:black;
+  
+}
+.jolly{
+  text-align: center;
+  justify-content: center;
+  padding: 15%;
+  font-size: 3rem;
+  font-weight: bold;
+  background-image:url(tate.jpg) ;
+  color: white;
+  
+}
+.yolo{
+  float: left;
+  font-size: 2rem;
+}
+nav  {
+  position: fixed relative ;
+
+}

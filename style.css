@@ -1,0 +1,29 @@
+
+div a{
+  color: red;
+}
+div > p{
+  color: blue;
+}
+div.hello ~p {
+  color: yellow;
+}
+p,~ div {
+  color: green;
+}
+div + p {
+  color: green;
+}
+p::first-line{
+color: green;
+}
+p::after{
+  content: url(jolly.jpg);
+}
+
+
+space means= desendant
+> means child selecter
+~ means general sibling selecter
++ means advacent sibling = right after the closing tag
+:: psudo type == ::first-line   ::first-letter can also be used to add in a photo or anything
